@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<title>Notes app</title>
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+	<h1 class="header-logo">
+		Notes
+	</h1>
+	<form class="header__options" name="notes-options">
+		<input type="button" value="zarządzaj notatkami" class="button header__options__item header__options__item--manage" name="manage" id="manage">
+		<input type="button" value="dodaj notatkę" class="button header__options__item header__options__item--add" name="add" id="add">
+	</form>
+</header>
+<section class="section"></section>
+<footer class="footer">
+	<p class="footer__copyright">
+		&copy; 2017. Created by Grzegorz Pokorski.
+	</p>
+</footer>
+
+<div id="adding-note-area" class="form-area">
+	<form name="adding-note" class="form-area__form">
+		<h2 class="form-area__form__title">
+			Dodaj nową notatkę
+		</h2>
+		<label for="title" class="form-area__form__label">Tytuł:</label>
+		<input type="text" id="title" name="title" class="form-area__form__input">
+		<label for="content" class="form-area__form__label">Treść notatki:</label>
+		<textarea name="content" id="content" class="form-area__form__textarea"></textarea>
+		<input type="button" class="button form-area__form__input--button" name="submit" value="Zapisz notatkę">
+	</form>
+</div>
+
+<div id="manage-notes-area" class="form-area">
+	<form name="manage-notes" class="form-area__form">
+		<h2 class="form-area__form__title">
+			Zarządzaj notatkami
+		</h2>
+		<input type="button" class="button form-area__form__input--button" name="delete_notes" value="Usuń wszystkie notatki">
+	</form>
+</div>
+	
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
