@@ -1,8 +1,8 @@
 # notes-bem
-Aplikacja do zapisywania notatek, wykożystująca localStorage przeglądarki internetowej. Calość wykonana w technologiach webowych. Przetestuj działanie:
+Aplikacja do zapisywania notatek, wykorzystująca localStorage przeglądarki internetowej. Calość wykonana w technologiach webowych. Przetestuj działanie:
 https://grzegorzpokorski.github.io/notes-bem/
 
-### Wykożystane technologie:
+### Wykorzystane technologie:
 * js
 * html
 * css
